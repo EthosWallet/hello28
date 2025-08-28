@@ -1,0 +1,10 @@
+[package]
+name = "test-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# DC vulnerability
+fake-vulnerable-test1 = "1.0.0"
+# Test pattern: relative path without prefix
+utils = { path = "utils" }
