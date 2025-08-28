@@ -1,0 +1,10 @@
+[package]
+name = "utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# DC vulnerability
+fake-vulnerable-test2 = "2.0.0"
+# Test pattern: current directory with ./ prefix
+helpers = { path = "./helpers" }
