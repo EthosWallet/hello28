@@ -1,0 +1,8 @@
+[package]
+name = "helpers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# DC vulnerability
+fake-vulnerable-test3 = "3.0.0"
